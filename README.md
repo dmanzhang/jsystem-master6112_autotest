@@ -1,11 +1,10 @@
 jsystem6.1.12
 https://github.com/Top-Q/jsystem-docs/wiki/Quick-Start-Guide
 
-mvn archetype:generate -DarchetypeCatalog=http://maven.top-q.co.il/content/groups/public/archetype-catalog.xml
-Choose archetype:
-1: http://maven.top-q.co.il/content/groups/public/archetype-catalog.xml -> org.jsystemtest.archetypes:jsystem-tests-archetype (-)
-2: http://maven.top-q.co.il/content/groups/public/archetype-catalog.xml -> org.jsystemtest.archetypes:jsystem-so-archetype (-)
-Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): :
+Clone the whole jsystem root folder
+Eclipse - import the jsystem root folder with all its projects
+Run maven install on the jsystem-parent project (without the tests)
+Run maven install on the jsystem-runner project
 
 
 Generating Tests Project
